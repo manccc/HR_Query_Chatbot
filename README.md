@@ -43,16 +43,20 @@ The chatbot uses **semantic search** with embeddings and a FAISS vector index to
 ```bash
 git clone https://github.com/manccc/HR_Query_Chatbot.git
 cd HR_Query_Chatbot
+```
 
 ```bash
 pip install requirements.txt
+```
 
 ```bash
 streamlit run app.py
+```
 
 ** Future Improvements
 - Add optional LLM (OpenAI/Ollama) for natural summaries
 - Expand dataset with location, availability dates
 - Build FastAPI backend for API endpoints
 - Deploy to Streamlit Cloud or HuggingFace Spaces
+
 
