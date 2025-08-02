@@ -53,10 +53,11 @@ pip install requirements.txt
 streamlit run app.py
 ```
 
-** Future Improvements
+## Future Improvements
 - Add optional LLM (OpenAI/Ollama) for natural summaries
 - Expand dataset with location, availability dates
 - Build FastAPI backend for API endpoints
 - Deploy to Streamlit Cloud or HuggingFace Spaces
+
 
 
